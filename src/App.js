@@ -105,7 +105,7 @@ function PortfolioSection() {
       title: "Lifestyle Disease Prediction Management System (Final Year Project)",
       description: "A web-based Lifestyle Disease Prediction and Management System using Python, scikit-learn, Flask, and MySQL to analyze user lifestyle data and predict risks for diabetes, stroke, and asthma, providing personalized health recommendations.",
       tags: ["Python", "XGBoost", "Flask", "MySQL", "Machine Learning"],
-      image: "/images/FYP.png",
+      image: process.env.PUBLIC_URL + "/images/FYP.png",
       github: "https://github.com/wonghorngwoei/FYP_TP055241"
     },
     {
@@ -113,7 +113,7 @@ function PortfolioSection() {
       title: " Web-based Car Sales System",
       description: "A web-based Car Sales System using Java, MySQL, and Bootstrap, featuring user management, transaction tracking, and interactive reporting to automate inventory and sales processes for improved operational efficiency.",
       tags: ["JAVA", "MySQL", "Bootstrap Framework"],
-      image: "/images/CarSalesSys.png",
+      image: process.env.PUBLIC_URL + "/images/CarSalesSys.png",
       github: "https://github.com/wonghorngwoei/CarSalesSystem"
     },
     {
@@ -121,7 +121,7 @@ function PortfolioSection() {
       title: "Glove Defect Detection System",
       description: "MATLAB-based Glove Defect Detection System using image processing techniques, including morphological operations and thresholding, to accurately identify defects with bounding boxes, gaining practical experience in computer vision and pattern recognition.",
       tags: ["MATLAB", "Computer Vision", "Pattern Recognition"],
-      image: "/images/GlovePic.png",
+      image: process.env.PUBLIC_URL + "/images/GlovePic.png",
       github: "https://github.com/wonghorngwoei/GloveDetectionSystem"
     },
     {
@@ -129,7 +129,7 @@ function PortfolioSection() {
       title: "Heart Disease Classification System",
       description: "A machine learning-based system developed using Python to predict whether a patient has heart disease based on clinical data. This project explores multiple classification models, performs rigorous data preprocessing, and evaluates the effectiveness of each approach using industry-standard metrics.",
       tags: ["Jupyter Notebook", "Machine Learning", "Random Forest", "SVM", "Logistic Regression"],
-      image: "/images/FAI.png",
+      image: process.env.PUBLIC_URL + "/images/FAI.png",
       github: "https://github.com/wonghorngwoei/FurtherAI"
     },
     {
@@ -137,7 +137,7 @@ function PortfolioSection() {
       title: "Employee Attrition Analysis in R",
       description: "An in-depth HR analytics project using R programming to uncover insights about employee attrition, retirement, layoffs, and gender balance across departments and stores in British Columbia, Canada. The project uses real employee datasets to explore patterns, visualize results, and provide actionable recommendations to HR.",
       tags: ["R", "Data Analysis", "RStudio"],
-      image: "/images/PFDA.png",
+      image: process.env.PUBLIC_URL + "/images/PFDA.png",
       github: "https://github.com/wonghorngwoei/PFDA"
     },
     {
@@ -145,7 +145,7 @@ function PortfolioSection() {
       title: "McDonald Location Finder with LLM Chatbot",
       description: "A comprehensive system to locate McDonald's outlets in Kuala Lumpur, Malaysia with AI-powered store information queries.",
       tags: ["React.JS", "Python", "SQLite", "LLM", "FastAPI"],
-      image: "/images/McD.png",
+      image: process.env.PUBLIC_URL + "/images/McD.png",
       github: "https://github.com/wonghorngwoei/McDonald_Location_with_LLMChatbot"
     },
     ];
@@ -269,15 +269,15 @@ function TravelSection() {
       date: "Spring 2024 - Spring 2025",
       description: "Learning Japanese, Travel, and Exploring New Opportunities",
       images: [
-        "/images/no1.jpeg",
-        "/images/no2.jpeg",
-        "/images/no3.jpeg",
-        "/images/no4.jpeg",
-        "/images/no5.jpeg",
-        "/images/no6.jpeg",
-        "/images/no7.jpeg",
-        "/images/no8.jpeg",
-        "/images/no9.jpeg"
+        process.env.PUBLIC_URL + "/images/no1.jpeg",
+        process.env.PUBLIC_URL + "/images/no2.jpeg",
+        process.env.PUBLIC_URL + "/images/no3.jpeg",
+        process.env.PUBLIC_URL + "/images/no4.jpeg",
+        process.env.PUBLIC_URL + "/images/no5.jpeg",
+        process.env.PUBLIC_URL + "/images/no6.jpeg",
+        process.env.PUBLIC_URL + "/images/no7.jpeg",
+        process.env.PUBLIC_URL + "/images/no8.jpeg",
+        process.env.PUBLIC_URL + "/images/no9.jpeg"
       ]
     },
     {
